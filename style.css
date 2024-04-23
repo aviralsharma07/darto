@@ -57,11 +57,21 @@ main {
   font-size: 12px;
 }
 
+.navbar ul li:hover {
+  cursor: pointer;
+  color: #00bbff;
+}
+
 .nav-img {
   display: block;
   margin: auto;
   width: 18px;
   margin-bottom: 5px;
+}
+
+.nav-img:hover {
+  cursor: pointer;
+  fill: #00bbff;
 }
 
 .sections {
@@ -87,6 +97,11 @@ main {
   padding-bottom: 5px;
   margin: 0 8px;
   text-wrap: nowrap;
+}
+
+.sections ul li:hover {
+  cursor: pointer;
+  color: #00bbff;
 }
 
 /*! ---------------------------- STYLING HERO SECTION ---------------------------- !*/
@@ -129,6 +144,7 @@ article div p {
   margin-top: 12px;
   padding: 15px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 /*! ---------------------------- STYLING CTA SECTIONS ---------------------------- !*/
@@ -341,6 +357,15 @@ footer .links a {
 .social-links {
   display: flex;
   justify-content: space-between;
+}
+
+.links a:hover {
+  cursor: pointer;
+  color: #00bbff;
+}
+
+button {
+  cursor: pointer;
 }
 
 /*! ---------------------------- MEDIA QUERIES  ---------------------------- !*/
